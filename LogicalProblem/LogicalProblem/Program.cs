@@ -5,7 +5,7 @@
         public static void Main(string[] args)
         {
             bool end = true;
-            Console.WriteLine("1. Fabonacci Series\n2. Perfect Number\n3. Prime Number");
+            Console.WriteLine("1. Fabonacci Series\n2. Perfect Number\n3. Prime Number\n4. Reverse Number");
             while (end)
             {
                 Console.WriteLine("\nEnter Above Option");
@@ -22,6 +22,9 @@
                         break;
                     case 3:
                         PrimeNumber.Prime();
+                        break;
+                    case 4:
+                        ReverseNumber.Reverse();
                         break;
                 }
             }
