@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicalProblem
 {
-    public class Logic
+    public class FabonaciSeries
     {
         public static void FabonacciSeries()
         {
