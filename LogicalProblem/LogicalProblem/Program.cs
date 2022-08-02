@@ -26,6 +26,9 @@
                     case 4:
                         ReverseNumber.Reverse();
                         break;
+                    case 5:
+                        CoupenNumber.Coupen(21);
+                        break;
                 }
             }
            
