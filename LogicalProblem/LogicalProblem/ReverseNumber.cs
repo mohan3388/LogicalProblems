@@ -15,9 +15,9 @@ namespace LogicalProblem
             int res = 0, rem;
             while(num!=0)
             {
-                num = num/10;
+                rem = num%10;
                 res = res * 10 + num;
-                num = num%10;
+                num = num/10;
             }
             Console.WriteLine("reverse number: "+res);
         }
